@@ -8,12 +8,12 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 //Screens
 import Splash from '../screens/Splash';
 import Home from '../screens/Home';
-import Details from '../screens/Details';
+import Profile from '../screens/Profile';
 
 export type RootStackParamList = {
   Splash: undefined;
   Home: undefined;
-  Details: undefined;
+  Profile: undefined;
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -35,8 +35,8 @@ const Navigation = () => {
             options={{headerShown: false, gestureEnabled: false}}
           />
           <Stack.Screen
-            name="Details"
-            component={Details}
+            name="Profile"
+            component={Profile}
             options={{headerShown: false, gestureEnabled: false}}
           />
         </Stack.Navigator>

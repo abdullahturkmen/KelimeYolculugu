@@ -1,15 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const Details = ({navigation,route}) => {
+const Learning = () => {
   return (
     <View>
-      <Text>Details</Text>
-      <Text>{route.params.userID}</Text>
+      <Text>Learning</Text>
     </View>
   )
 }
 
-export default Details
+export default Learning
 
 const styles = StyleSheet.create({})
