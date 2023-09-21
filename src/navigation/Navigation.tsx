@@ -8,11 +8,17 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 //Screens
 import Splash from '../screens/Splash';
 import Home from '../screens/Home';
+import Single from '../screens/Single';
+import Multiplayer from '../screens/Multiplayer';
+import Learning from '../screens/Learning';
 import Profile from '../screens/Profile';
 
 export type RootStackParamList = {
   Splash: undefined;
   Home: undefined;
+  Single: undefined;
+  Multiplayer: undefined;
+  Learning: undefined;
   Profile: undefined;
 };
 
@@ -35,6 +41,21 @@ const Navigation = () => {
             options={{headerShown: false, gestureEnabled: false}}
           />
           <Stack.Screen
+            name="Single"
+            component={Single}
+            options={{headerShown: false, gestureEnabled: false}}
+          />
+           <Stack.Screen
+            name="Multiplayer"
+            component={Multiplayer}
+            options={{headerShown: false, gestureEnabled: false}}
+          />
+           <Stack.Screen
+            name="Learning"
+            component={Learning}
+            options={{headerShown: false, gestureEnabled: false}}
+          />
+           <Stack.Screen
             name="Profile"
             component={Profile}
             options={{headerShown: false, gestureEnabled: false}}

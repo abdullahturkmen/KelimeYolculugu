@@ -30,7 +30,7 @@ const Home = ({ navigation, route }) => {
                                     buttonStyle={{
                                         borderColor: 'white',
                                         borderRadius: 30,
-                                    }} onPress={() => navigation.navigate('Profile', { userID: 'Jane' })}>Oyna</Button>
+                                    }} onPress={() => navigation.navigate('Single')}>Oyna</Button>
                             </View>
                         </View>
                     </View>
@@ -52,7 +52,7 @@ const Home = ({ navigation, route }) => {
                                     buttonStyle={{
                                         borderColor: 'white',
                                         borderRadius: 30,
-                                    }} onPress={() => navigation.navigate('Profile', { userID: 'Jane' })}>Oyna</Button>
+                                    }} onPress={() => navigation.navigate('Multiplayer')}>Oyna</Button>
                             </View>
                         </View>
                     </View>
@@ -74,7 +74,7 @@ const Home = ({ navigation, route }) => {
                                     buttonStyle={{
                                         borderColor: 'white',
                                         borderRadius: 30,
-                                    }} onPress={() => navigation.navigate('Profile', { userID: 'Jane' })}>Git</Button>
+                                    }} onPress={() => navigation.navigate('Learning')}>Git</Button>
                             </View>
                         </View>
                     </View>
@@ -96,7 +96,7 @@ const Home = ({ navigation, route }) => {
                                     buttonStyle={{
                                         borderColor: 'white',
                                         borderRadius: 30,
-                                    }} onPress={() => navigation.navigate('Profile', { userID: 'Jane' })}>Git</Button>
+                                    }} onPress={() => navigation.navigate('Profile')}>Git</Button>
                             </View>
                         </View>
                     </View>
